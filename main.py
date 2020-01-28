@@ -7,7 +7,7 @@ from cogs import deps
 bot = Bot(command_prefix='?')
 
 
-startup_extensions = ['rng', 'reddit_grabber', 'misc']
+startup_extensions = ['rng', 'misc']
 
 @bot.event
 async def on_ready():
