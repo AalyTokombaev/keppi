@@ -7,7 +7,7 @@ from cogs import deps
 bot = Bot(command_prefix='?')
 
 
-startup_extensions = ['rng', 'misc']
+startup_extensions = ['rng', 'text']
 
 @bot.event
 async def on_ready():
@@ -40,5 +40,5 @@ if __name__ == '__main__':
             exc = f'{type(e).__name__}: {e}'
             print(f'Failed to load extension {extension} {exc}')
 
-bot.run('MzMyODkyNDQ2OTg1ODE0MDI2.DWR5nQ.Z9kfMsw-yA9rrT9ZbnQjPK7rIyU')
+bot.run('')
 #now to add some cogs
